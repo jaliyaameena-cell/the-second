@@ -1,0 +1,42 @@
+/* Full page styling */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7fb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Title */
+.home-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Buttons */
+.home-button {
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.home-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Download section */
+.download-section {
+  margin-top: 1.5rem;
+}
